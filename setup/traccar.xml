@@ -2,13 +2,11 @@
 <!DOCTYPE properties SYSTEM "http://sun.com">
 <properties>
 
-    <!-- Utilisation des variables d'environnement Railway -->
     <entry key='database.driver'>org.postgresql.Driver</entry>
     <entry key='database.url'>${DATABASE_URL}</entry>
     <entry key='database.user'>${DATABASE_USER}</entry>
     <entry key='database.password'>${DATABASE_PASSWORD}</entry>
 
-    <!-- Configuration Réseau -->
     <entry key='web.port'>8082</entry>
     <entry key='web.address'>0.0.0.0</entry>
 
