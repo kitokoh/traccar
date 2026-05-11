@@ -4,10 +4,10 @@
 
     <!-- Documentation: https://www.traccar.org/configuration-file/ -->
 
-    <entry key='database.driver'>org.h2.Driver</entry>
+    <entry key='database.driver'>org.postgresql.Driver</entry>
     <entry key='database.url'>jdbc:postgresql://neondb_owner:npg_hjcBV9HIqD3v@ep-solitary-rice-al2kutlm.c-3.eu-central-1.aws.neon.tech/neondb?sslmode=require</entry>
     <entry key='database.user'>neondb_owner</entry>
-    <entry key='database.password' />npg_hjcBV9HIqD3v</entry>
+    <entry key='database.password'>npg_hjcBV9HIqD3v</entry>
     <!-- Configuration Réseau pour Railway -->
     <entry key='web.port'>8082</entry>
     <entry key='web.address'>0.0.0.0</entry>
